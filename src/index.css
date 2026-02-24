@@ -102,3 +102,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+#lovable-badge,
+[data-lovable-badge="true"] {
+  display: none !important;
+}
